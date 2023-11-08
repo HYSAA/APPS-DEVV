@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <div id="Title">
+    <h1>Kape Cake House Ordering System</h1>
+</div>
+ <div class="menu">
+    <label for="Cakes">Cakes</label >
+<select name="Cakes" id="Cakes" multiple>
+  <option value="cake" id="mango" onclick="getOrder()">Mango</option>
+
+  <option value="cake" id="choco" onclick="getOrder()">Choco</option>
+
+  <option value="cake" id="pineapple" onclick="getOrder()">Pineapple</option>
+
+  <option value="cake" id="waffle" onclick="getOrder()">Waffle</option>
+
+  <option value="cake" id="black" onclick="getOrder()">Black Forest</option>
+</select>
+
+<label for="Coffee">Coffee</label >
+    <select name="Coffee" id="Coffee" multiple>
+      <option value="cake" id="coffee1" onclick="getOrder()">Espresso</option>
+    
+      <option value="cake" id="coffee2" onclick="getOrder()">Doppio</option>
+    
+      <option value="cake" id="coffee3" onclick="getOrder()">Macchiaoto</option>
+    
+      <option value="cake" id="coffee4" onclick="getOrder()">Americano</option>
+    
+      <option value="cake" id="coffee5" onclick="getOrder()">Cappucino</option>
+    
+    </select>
+</div>
+<div id="qty">
+<p id="result">Item</p>
+<p id="result">Qty</p>
+<p id="result">Price</p>
+<p id="result">Amount</p>
+</div>
+
+
+    <script src="kape.js"></script>
+</body>
+</html>

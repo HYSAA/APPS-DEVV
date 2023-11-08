@@ -1,0 +1,18 @@
+#Title{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.menu{
+    /* text-align: center;
+    justify-content: center;
+
+    border: solid 5px; */
+    display: block; 
+}
+.qty{
+display: flex;
+
+
+}
